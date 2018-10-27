@@ -1,0 +1,94 @@
+body{
+    background-image: url("../images/elephant-and-peanuts-pattern-marie-gardeski-_720.jpg");
+    /* margin: 0; */
+    font-family: 'Chakra Petch', sans-serif; 
+    text-align: center; 
+}
+
+.container {
+    position: relative;
+    /* width: 80%;
+    min-height: 575px;  
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    height: 100%; 
+    margin-left: 100px; 
+    margin-right: 100px; 
+    background-color: #FCE277; 
+}
+
+.header{
+    width: 70%; 
+    margin-top: 20px; 
+    /* margin-left: 175px;  */
+    /* align-items: center; */
+    display: inline-block;
+    background-color: #676B6F; 
+    color: #ffffff; 
+    font-size: 85px;
+    font-weight: bold; 
+}
+
+.time {
+    padding: 30px; 
+    font-size: 36px;
+}
+
+.questions{
+    font-weight: 300; 
+}
+
+#quiz{
+    margin: 20px; 
+    min-height: 300px;
+    font-size: 15px; 
+    border: 15px #969DA2;
+    background-color: #969DA2;
+} 
+
+.answers {
+    margin-bottom: 20px; 
+}
+
+.answers label{
+    display: block; 
+}
+
+#submit {
+    margin-bottom: 20px; 
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px; 
+    background-color: #676B6F;
+    color: #ffffff; 
+    border: 0px; 
+    border-radius: 3px; 
+    padding: 10px; 
+    cursor: pointer;
+
+}
+
+#submit:hover {
+    font-family: 'Chakra Petch', sans-serif; 
+    padding: 1px; 
+    background-color: #969DA2; 
+    color: #ffffff; 
+    border: 0px; 
+    border-radius: 3px; 
+    padding: 10px; 
+    cursor: pointer;
+}
+    
+/* ------------------------------------------------------------------ */
+
+.footer{ 
+    position: relative; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    width: 100%;
+    height: 30px;
+    background-color: #656F6E;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+}
